@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+}
+
+.card{
+    margin: 130px auto;
+
+    background-color: hsl(216, 50%, 16%);
+    width: 400px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.6cm;
+    padding: 20px;
+}
+
+.card-img{
+    width: 350px;
+    border-radius: 0.4cm;
+}
+
+.card-description{
+    padding-top: 22px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card-description h1{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.card-description p{
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.card-information{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card-information p{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.card-information-price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-information-date{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-information-price p{
+    color: hsl(178, 100%, 50%);
+}
+
+.card-creation{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-top: 0.1px solid grey;
+    padding-top: 20px;
+}
+
+.card-creation img{
+    width: 40px;
+    border: 0.12rem solid;
+    border-radius: 0.5cm;
+}
+
+.card-creation h4{
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.card-creation strong{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
